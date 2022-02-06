@@ -7,7 +7,7 @@ const slidesLength = slideRight.querySelectorAll('div').length;
 
 let activeSlideIndex = 0;
 
-// Shift the left slides up so that the last slide is in view.
+// On slideLeft, start with the last slide in view.
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
 // Show next slides if up button is clicked, or previous slides if down button is clicked.
